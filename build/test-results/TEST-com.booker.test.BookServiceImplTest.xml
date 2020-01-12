@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.booker.test.BookServiceImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-12-26T21:37:34" hostname="Mamoudou-PC" time="0.054">
+  <properties/>
+  <testcase name="retrieveNullBookIdDetails" classname="com.booker.test.BookServiceImplTest" time="0.053"/>
+  <testcase name="retrieveBookDetails" classname="com.booker.test.BookServiceImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

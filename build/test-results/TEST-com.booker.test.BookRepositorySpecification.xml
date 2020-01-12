@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.booker.test.BookRepositorySpecification" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-12-26T21:37:34" hostname="Mamoudou-PC" time="0.086">
+  <properties/>
+  <testcase name="retrieved if book is not null" classname="com.booker.test.BookRepositorySpecification" time="0.076"/>
+  <testcase name="retrieved if book is null" classname="com.booker.test.BookRepositorySpecification" time="0.008"/>
+  <testcase name="retrieve bookId must be greater than 0" classname="com.booker.test.BookRepositorySpecification" time="0.002"/>
+  <system-out><![CDATA[22:37:34.382 [Test worker] DEBUG c.b.test.BookRepositorySpecification - setup() - Runs before every method
+22:37:34.430 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Method 1 - retrieved book object is not null- start
+22:37:34.437 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Book 
+[BookId: 1, title: Robert Chevalier, author: Java 5 & 6]
+22:37:34.439 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Cleanup a method - Runs after every method.
+22:37:34.440 [Test worker] DEBUG c.b.test.BookRepositorySpecification - setup() - Runs before every method
+22:37:34.440 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Method 1 - retrieved book object is not null- start
+22:37:34.440 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Book 
+[BookId: 2, title: Eugene Hayet, author: JUnit and Spock]
+22:37:34.440 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Cleanup a method - Runs after every method.
+22:37:34.448 [Test worker] DEBUG c.b.test.BookRepositorySpecification - setup() - Runs before every method
+22:37:34.448 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Method - 2 retrieved book object is null - start
+22:37:34.449 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Book ID does not exist
+22:37:34.449 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Cleanup a method - Runs after every method.
+22:37:34.449 [Test worker] DEBUG c.b.test.BookRepositorySpecification - setup() - Runs before every method
+22:37:34.449 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Method 3 - book id must be greater than 0 - start
+22:37:34.451 [Test worker] DEBUG c.b.test.BookRepositorySpecification - Cleanup a method - Runs after every method.
+22:37:34.451 [Test worker] DEBUG c.b.test.BookRepositorySpecification - cleanupSpec() - Runs only once specification
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
