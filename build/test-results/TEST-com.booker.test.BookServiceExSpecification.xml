@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.booker.test.BookServiceExSpecification" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-12-26T21:37:34" hostname="Mamoudou-PC" time="0.009">
+  <properties/>
+  <testcase name="retrieved book object is not null" classname="com.booker.test.BookServiceExSpecification" time="0.007"/>
+  <testcase name="retrieved book object is null" classname="com.booker.test.BookServiceExSpecification" time="0.001"/>
+  <system-out><![CDATA[22:37:34.458 [Test worker] DEBUG c.b.test.BookServiceExSpecification - setupSpec() - Runs once per Specification
+22:37:34.458 [Test worker] DEBUG c.b.test.BookServiceExSpecification - setup() - Runs before every feature method
+22:37:34.464 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Feature method 1 - retrieved book object is not null- start
+22:37:34.464 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Book 
+[BookId: 1, title: Srujana, author: Spock Tut]
+22:37:34.465 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Cleanup method - Runs  after every feature method.
+22:37:34.465 [Test worker] DEBUG c.b.test.BookServiceExSpecification - setup() - Runs before every feature method
+22:37:34.465 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Feature method 1 - retrieved book object is not null- start
+22:37:34.465 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Book 
+[BookId: 2, title: Eugen, author: JUnit Tut]
+22:37:34.465 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Cleanup method - Runs  after every feature method.
+22:37:34.466 [Test worker] DEBUG c.b.test.BookServiceExSpecification - setup() - Runs before every feature method
+22:37:34.466 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Feature method - 2 retrieved book object is null - start
+22:37:34.467 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Book with this ID does not exist
+22:37:34.467 [Test worker] DEBUG c.b.test.BookServiceExSpecification - Cleanup method - Runs  after every feature method.
+22:37:34.467 [Test worker] DEBUG c.b.test.BookServiceExSpecification - cleanupSpec() - Runs only once per specification
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
